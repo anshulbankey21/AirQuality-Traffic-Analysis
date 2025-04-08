@@ -19,13 +19,17 @@ AirQuality-Traffic-Analysis/
 ├── data/                  # Cleaned datasets
 │   └── cleaned_air_quality_data.csv
 ├── notebooks/             # Jupyter Notebooks
-│   └── AQI_EDA_and_Modeling.ipynb
+│   └── cleaning_data.ipynb
+|   └── EDA.ipynb
+|   └── feature_engineering.ipynb
+|   └── model.ipynb
 ├── models/                # Trained ML model
 │   └── aqi_predictor_model.pkl
-├── dashboard/             # Tableau resources
-│   └── tableau_dashboard.png
+│   └── aqi_predictor_model2.pkl
+├── dashboard/             
+│   └── dashboard_app.py
 ├── README.md              # Project overview (this file)
-└── requirements.txt       # Python dependencies
+└── Requirements.txt       # Python dependencies
 ```
 
 ---
@@ -113,7 +117,7 @@ jupyter notebook notebooks/AQI_EDA_and_Modeling.ipynb
 🙋‍♂️ Author
 Anshul Bankey
 📧 [anshulbankey21@gmail.com]
-🔗 LinkedIn -- linkedin.com/in/anshul-bankey/
+🔗 LinkedIn -- `linkedin.com/in/anshul-bankey/`
 
 ⭐ Show Some Love!
 If you found this project useful, consider giving it a ⭐ and sharing it!
